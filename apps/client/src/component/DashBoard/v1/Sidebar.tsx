@@ -14,7 +14,7 @@ export default function Sidebar() {
     ];
 
     return (
-        <div className="flex flex-col justify-between h-screen w-56 bg-[#121313] text-white m-2 rounded-2xl">
+        <div className="flex flex-col justify-between max-h-screen w-70 bg-divBg text-white m-2 rounded-2xl my-5 ml-4 ">
             <nav className="flex flex-col gap-1 p-3">
                 {menuItems.map((item) => {
                     const Icon = item.icon;
